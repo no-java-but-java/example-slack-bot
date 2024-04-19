@@ -1,0 +1,21 @@
+{
+  "name": "example-slack-bot",
+  "version": "1.0.0",
+  "description": "example slack for echo message service",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/app.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "yarn": "^1.22.22"
+  }
+}
